@@ -1,0 +1,38 @@
+{
+	"name": "sunsoft_supplier",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"events": "^2.0.0",
+		"immutable": "^3.8.2",
+		"jcore-react-native": "^1.2.6",
+		"jpush-react-native": "^2.2.3",
+		"native-echarts": "^0.3.0",
+		"react": "16.0.0",
+		"react-native": "0.50.4",
+		"react-native-fast-image": "^4.0.0",
+		"react-native-iphone-x-helper": "^1.0.2",
+		"react-native-picker": "^4.3.6",
+		"react-native-root-toast": "^3.0.1",
+		"react-native-splash-screen": "^3.0.6",
+		"react-native-storage": "^0.2.2",
+		"react-native-swiper": "^1.5.2",
+		"react-navigation": "^1.5.7",
+		"react-redux": "^5.0.6",
+		"redux": "^3.7.2",
+		"redux-thunk": "^2.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "22.4.3",
+		"jest": "22.4.3",
+		"react-test-renderer": "16.0.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	},
+	"optionalDependencies": {}
+}
